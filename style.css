@@ -1,0 +1,67 @@
+body{ margin:0px; 
+      padding:0px; 
+      background-image:url(images/bg.jpg); background-size: 100%;
+	  background-repeat:repeat; background-attachment:fixed;
+	  background-color:#000;}
+p{text-align:justify;}  
+a{ color:#FFF; text-decoration:none; font-weight:bold; font-size:16px;}
+a:hover{ color:#FFC; text-decoration:none;font-weight:bold; font-size:16px;}
+
+#container{ width:900px; background:url(images/back.png); ; margin-top:10px; margin-bottom:10px; border:2px solid; }
+#banner{background-image:url(images/banner.jpg); background-repeat:no-repeat; width:900px; height:200px;}
+#banner2{background-image:url(images/banner2.jpg); background-repeat:no-repeat; width:900px; height:237px;}
+#banner3{background-image:url(images/banner3.jpg); background-repeat:no-repeat; width:900px; height:235px;}
+#banner4{background-image:url(images/banner4.jpg); background-repeat:no-repeat; width:900px; height:235px;}
+#banner5{background-image:url(images/banner5.jpg); background-repeat:no-repeat; width:900px; height:235px;}
+#banner6{background-image:url(images/banner6.jpg); background-repeat:no-repeat; width:900px; height:235px;}
+#banner7{background-image:url(images/banner7.jpg); background-repeat:no-repeat; width:900px; height:235px;}
+#continut{ width:900px; font-family:"Comic Sans MS", cursive; font-size:14px; margin:0px; padding:0px; text-align:left; color:#FFF;}
+
+
+ul.menu {
+list-style-type:none;
+width:auto;
+position:relative;
+display:block;
+height:33px;
+font-size:.6em;
+background:url(images/bg.png) repeat-x top left;
+font-family:Verdana,Helvetica,Arial,sans-serif;
+border:1px solid #000;
+margin:0; margin-left: 10px;
+padding:0;
+}
+
+ul.menu li {
+display:block;
+float:left;
+margin:0;
+padding:0;
+}
+
+ul.menu li a {
+float:left;
+color:#A79787;
+text-decoration:none;
+height:24px;
+padding:9px 15px 0;
+}
+
+ul.menu li a:hover,.current {
+color:#fff;
+background:url(images/bg.png) repeat-x top left;
+}
+
+ul.menu .current a {
+color:#fff;
+font-weight:700;
+}
+
+
+/*GREEN*/
+ul.menu.green{
+background-color:#629600;
+}
+ul.menu.green li a:hover, .menu.green li.current {
+background-color:#7AB900;
+}
